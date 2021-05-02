@@ -1,0 +1,45 @@
+import React from 'react';
+import emailjs from 'emailjs-com';
+import './Contact.css'
+
+const Contact = () => {
+    const sendEmail = e => {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail224', 'template_fhx964l', e.target,
+            'user_sQaqkXArkonx6DMpUcAns')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset();
+    }
+
+    return (
+        <div className="contact-form">
+            <h2 className="text-center text-white">Get in Touch</h2>
+            <form onSubmit={sendEmail}>
+                <div className="row d-flex justify-content-center my-5 py-5">
+                    <div class="ml-3 col-md-5">
+                        <label for="name" className="form-label text-white">Name</label>
+                        <input type="text" className="form-control w-75 " id="name" placeholder="Enter your name" />
+                        <br />
+                        <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+                        <input type="text" className="form-control w-75" id="exampleFormControlInput1" placeholder="Enter your email" />
+
+                    </div>
+                    <div class="ml-3 col-md-5">
+                        <label for="exampleFormControlTextarea1" class="form-label text-white">Message</label>
+                        <textarea className="form-control w-75" placeholder="Enter your message..." id="exampleFormControlTextarea1" rows="5"></textarea>
+                        <br/>
+                        <button className="btn btn-success" type="submit">Send Message</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    );
+};
+
+export default Contact;
