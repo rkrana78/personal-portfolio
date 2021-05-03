@@ -8,8 +8,8 @@ const ProjectDetail = (props) => {
                 <a href={demo} target='_blank'><img style={{ height: '110px' }} src={img} className="" alt="..." /></a>
                 <h4 className="mt-3" >{title}</h4>
                 <p >{details}</p>
-                <a href={demo}className="btn btn-success mr-4">Live</a>
-                <a href={github}className="btn btn-success">Github</a>
+                <a href={demo}className="btn btn-success mr-4" target='_blank'>Live</a>
+                <a href={github}className="btn btn-success" target='_blank'>Github</a>
 
             </div>
        

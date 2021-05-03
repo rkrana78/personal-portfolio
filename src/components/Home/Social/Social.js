@@ -7,7 +7,7 @@ import './Social.css'
 
 const Social = () => {
     return (
-        <div className=" w-50 icon d-flex justify-content-between ">
+        <div className=" w-25 icon d-flex justify-content-between ">
             <div className="">
                 <a className="text-white" href="https://github.com/rkrana78" target="_blank"><FontAwesomeIcon icon={faGithub} /> </a>
             </div>

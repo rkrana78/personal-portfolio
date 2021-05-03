@@ -4,6 +4,7 @@ import Contact from '../Contact/Contact';
 import Header from '../Header/Header';
 import Project from '../Project/Project';
 
+
 const Home = () => {
     return (
         <div>

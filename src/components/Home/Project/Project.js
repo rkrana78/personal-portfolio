@@ -4,6 +4,7 @@ import mobile from '../../../images/mobile-bazar.png'
 import soccer from '../../../images/soccer2png.png'
 import hungry from '../../../images/hungry.png'
 import slider from '../../../images/slider.png'
+import fast from '../../../images/fast-motion.png'
 import ProjectDetail from '../ProjectDetail/ProjectDetail';
 import './Project.css'
 
@@ -52,7 +53,7 @@ const projectsData = [
         title: 'Fast Motion',
         details: 'Fast Motion is a transport booking system',
         tools: 'HTML, CSS, Bootstrap, JavaScript, ES6, React, ',
-        img: slider,
+        img: fast,
         github: 'https://github.com/rkrana78/fast-motion',
         demo: 'https://fast-motion-4.web.app/'
     },
