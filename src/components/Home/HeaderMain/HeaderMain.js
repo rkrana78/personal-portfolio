@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeaderMain.css'
 import Typical from 'react-typical'
+import Social from '../Social/Social';
 
 const HeaderMain = () => {
     return (
@@ -16,6 +17,9 @@ const HeaderMain = () => {
                         wrapper="p"
                     />
                 </h4>
+                <div className="mb-4">
+                    <Social />
+                </div>
                 <a href="https://drive.google.com/uc?export=download&id=1k6D1w8_ItzsL1-wYbGBbjqFiWAUXmuo_" target="_blank" className="btn btn-danger">Download resume</a>
             </div>
         </main>

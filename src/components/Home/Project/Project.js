@@ -48,15 +48,21 @@ const projectsData = [
         github: 'https://github.com/rkrana78/fancy-slider',
         demo: 'https://rkrana78.github.io/fancy-slider/index.html'
     },
-
-
+    {
+        title: 'Fast Motion',
+        details: 'Fast Motion is a transport booking system',
+        tools: 'HTML, CSS, Bootstrap, JavaScript, ES6, React, ',
+        img: slider,
+        github: 'https://github.com/rkrana78/fast-motion',
+        demo: 'https://fast-motion-4.web.app/'
+    },
 
 
 ]
 
 const Project = () => {
     return (
-        <div  className="text-center pt-5 project-container bg-light">
+        <div  className="text-center pt-5 project-container bg-light" id="project">
             <h2 style={{color:  '#25255F'}}>My Works</h2>
            
            <div class="row offset-1 p-5">

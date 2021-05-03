@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="about-container ">
+        <div className="about-container " id="about">
             <div style={{ height: '550px' }} className="row">
                 <div className="col-md-4 offset-1 mt-2">
                     <h2>About Me</h2>
