@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
     return (
         <div className="about-container ">
-            <div style={{ height: '500px' }} className="row">
+            <div style={{ height: '550px' }} className="row">
                 <div className="col-md-4 offset-1 mt-2">
                     <h2>About Me</h2>
                     <hr />
@@ -21,7 +21,7 @@ const About = () => {
 
                     <h4>Familiar:</h4>
                     <button className="btn btn-info m-1">Redux.js</button> <button className="btn btn-info m-1">TypeScript</button> <button className="btn btn-info m-1">React Native</button> <button className="btn btn-info m-1">WordPress</button> <button className="btn btn-info m-1">Material UI</button> <button className="btn btn-info m-1">C</button> <button className="btn btn-info m-1">PHP</button> <button className="btn btn-info m-1">Laravel</button>
-                   
+
                 </div>
             </div>
         </div>
