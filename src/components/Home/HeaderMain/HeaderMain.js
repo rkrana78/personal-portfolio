@@ -23,7 +23,7 @@ const HeaderMain = () => {
                 </div>
                 <a href="https://drive.google.com/uc?export=download&id=1k6D1w8_ItzsL1-wYbGBbjqFiWAUXmuo_" target="_blank" className="btn btn-danger">Download resume</a>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5 img-container">
                 <img src={photo} alt=""/>
             </div>
         </main>
