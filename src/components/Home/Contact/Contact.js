@@ -41,6 +41,7 @@ const Contact = () => {
             <div className="d-flex justify-content-center">
                 <Social />
             </div>
+            
         </div>
     );
 };
